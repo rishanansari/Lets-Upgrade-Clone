@@ -3,3 +3,27 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.nav-link{
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #f60;
+}
+.dropdown-menu li a{
+    display: flex;
+    align-items: center;
+}
+.dropdown-menu li a:hover{
+    color: #f60;
+}
+.dropdown-menu li a span{
+    font-weight: 300;
+    font-family: auto;
+}
+.dropdown-menu li img , .dropdown-menu li i{
+    margin-right:5px ;
+}
