@@ -1,0 +1,21 @@
+.amb-section{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.program-heading h1{
+    font-size: 3rem;
+}
+.program-detail{
+    width: 50%;
+}
+.illustrate-img{
+    width: 40%;
+}
+
+
+
+
+@media screen and (max-width:768px){
+    .program-detail{
+        width: 90%;
+    }
+}
