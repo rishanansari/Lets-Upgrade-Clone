@@ -1,0 +1,83 @@
+/* program page css */
+.program_main_div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.cap-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cap-card{
+    width: 40%;
+    border-radius: 20px;
+}
+.cap-cpp-card{
+    background-image: url("https://lucdn.letsupgrade.net/assets/web_page_mobile_java_bg_94e2d55764.webp");
+    background-repeat: no-repeat no-repeat;
+    background-size: 100% 100%;
+}
+.cap-cpp-card h2{
+    /* color: orange; */
+    background: linear-gradient(94.4deg,#fbd34b -29.71%,#ea9535 67.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem;
+    line-height: inherit;
+    font-weight: 600;
+}
+.placement-btn{
+    background : linear-gradient(94.4deg,black -29.71%,#5f5f5f 67.84%);
+    border-radius: 20px !important;
+    padding: 5px 10px;
+    border: none !important;
+    font-size: 12px ;
+    color: white;
+    font-weight: 600;
+}
+.trending{
+    background: linear-gradient(94.4deg,#fbd34b -29.71%,#ea9535 67.84%);
+    border-radius: 20px !important;
+    padding: 5px 10px;
+    border: none !important;
+    font-size: 12px ;
+    color: white;
+    font-weight: 600;
+}
+.cap-descriptions i{
+    color : #ea9535;
+}
+.chat-btn{
+    width: 100%;
+    background: linear-gradient(180deg,#ffd95d -29.71%,#ea9535 67.84%);
+    padding : 10px 0px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: none;
+    color: rgb(30, 30, 30);
+}
+
+.fs-data-card{
+    background-image: url("https://lucdn.letsupgrade.net/assets/data_program_pgp_logo_cabab31b38.webp");
+    background-color: black !important;
+    border-radius: 20px !important;
+    opacity: 0.9;
+}
+.fs-data, .fs-web h6{
+    color: white !important;
+}
+.fs-web-card{
+    background-image: url("https://lucdn.letsupgrade.net/assets/web_program_pgp_logo_ca0a2ada1a.webp");
+    background-color: black !important;
+    border-radius: 20px !important;
+    opacity: 0.9;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .cap-card{
+        width: 90% !important;
+    }
+    
+}
