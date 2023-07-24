@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    text-decoration: none !important;
 }
 body{
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
@@ -32,3 +33,34 @@ body{
     margin-right:5px ;
 }
 
+/* main content css */
+
+.fs-heading{
+    width: 40%;
+}
+.fs-heading h1 a{
+    color: #f60;
+    background-color: rgb(255, 243, 236);
+    padding: 2px 0px;
+}
+.start-learning{
+    background-color: #f60;
+    border: none !important;
+    padding: 10px 0px;
+    width: 80%;
+}
+.placed-students{
+    width: 40%;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .fs-heading{
+        width: 80%;
+    }
+    .placed-students{
+        width: 80%;
+    }
+}
