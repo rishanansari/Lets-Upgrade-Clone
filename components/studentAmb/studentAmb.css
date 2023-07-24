@@ -11,11 +11,52 @@
     width: 40%;
 }
 
+/* footer style start */
+.fdiv1{
+    width: 30%;
+}
+.fpara{
+    font-size: 12px;
+    font-weight: 200 !important;
+}
+.fsocial-links a{
+    color: gray !important;
+    font-size: 1.3rem;
+}
+.fsocial-links a:hover{
+    color: #f60 !important;
+}
+
+.fdiv2 {
+    font-size: 12px;
+}
+.prg-c p{
+    font-size: 16px;
+    color: #f60;
+}
+
+.fdiv3 {
+    font-size: 12px;
+}
+
+.help-support p{
+    font-size: 16px;
+    color: #f60;
+}
 
 
 
 @media screen and (max-width:768px){
     .program-detail{
         width: 90%;
+    }
+    .fdiv1{
+        width: 100%;
+    }
+    .fdiv2{
+        width: 100%;
+    }
+    .fdiv3{
+        width: 100%;
     }
 }
