@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <title>Let's Upgrade | Sign In</title>
+    <title>Let's Upgrade | User Profile</title>
     <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="../footer/footer.css">
+    <link rel="stylesheet" href="landing.css">
 </head>
 <body>
-
-     <!-- NavBar global start  -->
-     <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary pt-1 shadow-sm">
+    <!-- NavBar global start  -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary pt-1 shadow-sm">
         <div class="container-fluid">
             <div class="nav_logo ps-4">
                 <a href="../../index.html">
@@ -27,18 +27,18 @@
                 <a class="nav-link active " aria-current="page" href="components/program/program.html">Programs</a>
                 <a class="nav-link " aria-current="page" href="#">Student Ambassador</a>
                 <a class="nav-link " aria-current="page" href="#">Jobs</a>
-                <a class="nav-link " aria-current="page" href="#">Events</a>
+                <a class="nav-link " aria-current="page" href="components/Events/event.html">Events</a>
                 <a class="nav-link " aria-current="page" href="#">Community</a>
-                <div class="btns">
+                <!-- <div class="btns">
                     <a href="components/signInpage/signIn.html" class=""><button class="sign-in border-1 bg-black text-white px-3 py-1 rounded-5 me-2">Sign In</button></a>
-                <a href="components/signUppage/signUp.html"><button class=" border-1 px-3 py-1 rounded-5 ">Sign Up</button></a>
-                </div>
+                    <a href="components/signUppage/signUp.html"><button class=" border-1 px-3 py-1 rounded-5 ">Sign Up</button></a>
+                </div> -->
                 
-                <!-- <ul class="navbar-nav ">
+                <ul class="navbar-nav ">
                     <li class="nav-item dropdown d-block d-lg-flex align-items-center">
                         <i class="bi bi-person-circle pe-2 text-danger" style="font-size: 26px;"></i>
                       <a class="nav-link dropdown-toggle p-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                           UserName
+                           Abid Ansari
                       </a>
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">
@@ -58,11 +58,11 @@
                         <li><a class="dropdown-item" href="#">
                             <i class="bi bi-person" style="font-size: 20px;"></i><span> Profile</span></a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">
+                        <li><a class="dropdown-item" href="../signInpage/signIn.html">
                             <i class="bi bi-box-arrow-right" style="font-size: 20px;"></i><span> Sign out</span></a></li>
                       </ul>
                     </li>
-                  </ul> -->
+                  </ul>
             </div>
           </div>
         </div>
@@ -70,52 +70,30 @@
       <!-- NavBar global end  -->
 
 
-    <div class="second-div d-flex justify-content-evenly flex-wrap align-items-center my-3 my-md-5 mx-md-5 mx-3 py-5 rounded-3">
-        <div class="community-heading">
-            <div class="signin-illustrate">
-                <img src="https://lucdn.letsupgrade.net/login_b1c16f7899.webp" alt="" width="100%">
-            </div>
-        </div>
-        <div class="community-count mt-md-0 mt-5">
-            <h2 class="mb-3">Sign In</h2>
-            <form class="row g-3 needs-validation" action="../landingpage/landing.html">
-                <div class="col-md-12">
-                  <label for="validationCustom01" class="form-label">Email ID</label>
-                  <input type="email" class="form-control" id="validationCustom01" placeholder="Enter Email" required>
-                </div>
-                <div class="col-md-12">
-                  <label for="validationCustom02" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="validationCustom02" placeholder="Enter Password" required>
-                </div>
-                
-                <div class="col-12">
-                  <button class="btn btn-dark rounded-5 w-100 " type="submit">Sign In</button>
-                </div>
-                <div class="d-flex justify-content-evenly text-dark-emphasis mt-0 py-2">
-                    <hr class="w-25"> Or <hr class="w-25">
-                </div>
-                <div class="col-12 mt-0">
-                  <button class="btn btn-dark rounded-5 w-100 ">Sign In with Google <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="" width="20"></button>
-                </div>
-                <div class="col-6">
-                    <span>Forgot your password?</span>
-                </div>
-                <div class="col-6">
-                    <a href="../signUppage/signUp.html" style="color:#f60"><span>Don't have an account yet?</span></a>
-                </div>
-              </form>
+    <!-- landing page content start  -->
 
+<main class="main-content-box mb-5 ">
+
+    <!-- section1 start  -->
+
+    <div class="second-div d-flex justify-content-evenly flex-wrap align-items-center  pb-5"></div>
+
+    <!-- section 2 start  -->
+    <div class="third-div mx-md-5 mx-3 pb-4 pt-5 rounded-4 mb-md-5 mb-4 shadow-sm">
+            <img src="https://cdn.letsupgrade.net/4Teb59jeWCbZ1LjbeZMaHCtFkps1/profile/displayImage.png" alt="" width="90" class="profile-img rounded-circle">
+            <div class="edit-btn d-flex justify-content-center justify-content-md-end me-md-4">
+                <button class="border-0">🖊️ Edit Profile</button>
+            </div>
+        <div class="launch-heading px-2 mt-3">
+            <h2 class="text-center fw-bold">ABID ANSARI</h2>
+            <p class="text-center text-dark-emphasis">@ansari_abid</p>
+            <p class="d-flex justify-content-evenly flex-wrap"><span>🪙 2034 LU Coins</span> <span>🗺️India</span> <span>🎂Joined on June 26, 2021</span></p>
+            <p class="text-center text-dark-emphasis">@   ansariabid95b@gmail.com</p>
         </div>
     </div>
+</main>
 
-
-
-
-
-
-
-
-      <!-- footer start  -->
+<!-- footer start  -->
 <div class="footer-section ">
     <div class="footer-main-div">
         <div class="footer-div py-5 px-4 bg-black d-flex justify-content-around flex-wrap">
@@ -175,6 +153,87 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+        var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+    </script>
 </body>
 </html>

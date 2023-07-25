@@ -1,0 +1,38 @@
+.second-div{
+    background-image: url("https://source.unsplash.com/1600x900/?nature,water,life,technology");
+    height: 200px;
+    background-repeat: no-repeat;
+
+}
+.third-div{
+    position: relative;
+    background: linear-gradient(147.76deg,hsla(0, 10%, 90%, 0.31) 2%,rgb(226, 223, 226) 650%);
+}
+.profile-img{
+    position: absolute;
+    top: -20%;
+    left: 46%;
+
+}
+.edit-btn button{
+    background-color: #f60;
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .second-div{
+        background-image: url("https://source.unsplash.com/1600x900/?nature,water,life,technology");
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    
+    }
+    .profile-img{
+        position: absolute;
+        top: -20%;
+        left: 37%;
+    
+    }
+}
