@@ -76,6 +76,21 @@ body{
 }
 
 
+/* third section start  */
+
+.third-div{
+    background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,rgb(255, 142, 240) 650%);
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px){
     .fs-heading{
