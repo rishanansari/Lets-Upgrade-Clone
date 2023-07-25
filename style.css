@@ -53,6 +53,27 @@ body{
     width: 40%;
 }
 
+/* second div css  */
+.second-div{
+    background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,#f60 650%);
+}
+.community-heading{
+    width: 40%;
+}
+.community-heading h5{
+    margin: 10px 0px ;
+}
+.community-count{
+    width: 40%;
+}
+.count h1{
+    padding: 10px;
+    margin: 0px 5px;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: black !important;
+    color: white !important;
+}
 
 
 
@@ -61,6 +82,14 @@ body{
         width: 80%;
     }
     .placed-students{
+        width: 80%;
+    }
+
+
+    .community-heading{
+        width: 80%;
+    }
+    .community-count{
         width: 80%;
     }
 }
