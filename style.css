@@ -83,7 +83,17 @@ body{
     background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,rgb(255, 142, 240) 650%);
 }
 
+/* 4 section  */
 
+.rating-box{
+    width: 40%;
+    background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,#f60 650%);
+}
+
+.images-avatar img{
+border-radius: 15px;
+margin: -3px;
+}
 
 
 
@@ -114,5 +124,8 @@ body{
     }
     .community-count{
         width: 80%;
+    }
+    .rating-box{
+        width: 90%;
     }
 }
