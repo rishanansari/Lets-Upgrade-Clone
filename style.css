@@ -6,7 +6,25 @@
 }
 body{
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    position: relative !important;
+}
+.whatsapp a{
     
+    background-color: #25d366;
+    color: white;
+    padding:5px 20px;
+    border-radius: 50px;
+    position: fixed;
+    right: 2%;
+    bottom: 8%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 5px 0px gray;
+    
+}
+.whatsapp a span:hover{
+    color: #f60;
 }
 .navbar{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -127,5 +145,21 @@ margin: -3px;
     }
     .rating-box{
         width: 90%;
+    }
+
+    .whatsapp a{
+    
+        background-color: #25d366;
+        color: white;
+        padding:5px 10px;
+        border-radius: 50%;
+        position: fixed;
+        right: 5%;
+        bottom: 5%;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        box-shadow: 1px 1px 5px 0px gray;
+        
     }
 }
