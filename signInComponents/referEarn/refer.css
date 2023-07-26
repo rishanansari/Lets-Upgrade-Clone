@@ -5,6 +5,11 @@
 .right-div{
     width: 40%;
 }
+
+.lucoin-div{
+background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' fill='none' stroke='rgb(15 23 42 / 0.04)'%3E%3Cpath d='M0 .5h31.5V32'/%3E%3C/svg%3E");
+background: linear-gradient(147.76deg,hsla(0,100%,99%,.31) 2%,rgb(255, 142, 240) 650%);
+}
 .lu-count p span{
     background-color: rgba(238, 238, 238, 0.3)  !important;
     padding: 5px 10px;
@@ -13,9 +18,6 @@
 .lucoin-heading span{
     color: #f60;
     font-weight: 700;
-}
-.lu-para h5{
-    color: whitesmoke;
 }
 .eran-btn{
     background-color: #f60;
@@ -26,7 +28,7 @@
     font-weight: 500;
 }
 .redeem-btn{
-    background-color: whitesmoke !important;
+    background-color: black !important;
     border: none;
     padding: 8px 20px;
     border-radius: 20px;
