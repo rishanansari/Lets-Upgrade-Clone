@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <title>Let's Upgrade | My Application</title>
+    <title>Let's Upgrade | My Programs</title>
     <link rel="stylesheet" href="../../style.css">
     <link rel="stylesheet" href="../../components/footer/footer.css">
     <link rel="stylesheet" href="../../components/landingpage/landing.css">
+    <link rel="stylesheet" href="../../components/program/program.css">
+    <link rel="stylesheet" href="myprogram.css">
 </head>
 <body>
 
@@ -57,9 +59,9 @@
                             <img src="https://lucdn.letsupgrade.net/lucoin_da3692117e.png" alt="" width="20"><span> LU Coins</span></a></li>
                         <li><a class="dropdown-item" href="../referEarn/refer.html">
                             <i class="bi bi-cash-coin" style="font-size: 20px;"></i><span> Refer & Earn</span></a></li>
-                        <li><a class="dropdown-item" href="#">
+                        <li><a class="dropdown-item" href="../myApplication/myapplication.html">
                             <i class="bi bi-window" style="font-size: 20px;"></i><span> My Applications</span></a></li>
-                        <li><a class="dropdown-item" href="../myProgram/myprogram.html">
+                        <li><a class="dropdown-item" href="#">
                             <i class="bi bi-mortarboard" style="font-size: 20px;"></i><span> My Programs</span></a></li>
                         <li><a class="dropdown-item" href="#">
                             <i class="bi bi-file-earmark" style="font-size: 20px;"></i><span> My Exams</span></a></li>
@@ -79,28 +81,69 @@
       </nav>
       <!-- NavBar global end  -->
 
-<!-- application section 1 -->
-<main class="app-main p-3 p-md-5">
-    <div class="app-div d-flex flex-column align-items-center ">
-        <div class="app-heading mb-md-4 mb-3">
-            <h1 class="text-center ">Program Applications</h1>
-        </div>
-        <div class="program-card d-flex justify-content-evenly align-items-center bg-light py-4 flex-wrap w-75 rounded-3 shadow-sm ">
-            <div class="program-detail px-2 px-md-0 text-center text-md-start">
-                <a href="" class="status bg-warning p-1 rounded-1 text-black-50">Pending</a>
-                <div class="program mt-3">
-                    <h6 class="mb-1">Full Stack Web Development Program - LUA_6bykj-</h6>
-                    <p class="text-light-emphasis mb-0">26 Jul 2023 1:07:18 pm</p>
+
+
+<!-- program section  -->
+<div class="certificate_corses mb-5">
+    <h2 class="text-center py-4 fw-bold">My Programs</h2>
+    <div class="certificate-cards pb-5">
+        <div class=" certificate-card border border-1 shadow-sm mb-sm-0 mb-3">
+            <div class=" certificate-card1  p-3 ">
+                <div class="card-image">
+                    <img src="https://lucdn.letsupgrade.net/assets/Postman_2c3efd3e28.webp" alt="" width="100%" class="rounded rounded-1 shadow-sm">
+                </div>
+                <h5 class="mt-4 ">
+                    Postman API Fundamentals Student Expert Certification
+                </h5>
+                <div class="free ">
+                    <div class="time  text-black-50 ">
+                    <span><i class="bi bi-camera-video"></i> 03 Classes</span>
+                    </div>
+                    <div class="progress my-2" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar text-bg-warning" style="width: 75%">75%</div>
+                      </div>
                 </div>
             </div>
-            <div class="apply-btn px-2 px-md-0 mt-md-0 mt-4 ">
-                <button class="border-0 bg-black text-white rounded-pill py-2 px-3">Pay Now</button>
+        </div>
+        <div class=" certificate-card border border-1 shadow-sm mb-sm-0 mb-3">
+            <div class=" certificate-card1  p-3 ">
+                <div class="card-image">
+                    <img src="https://media.letsupgrade.net/lms/program/EJSJUL123/image_1689680249253_JS 3 Days (1).png" alt="" width="100%" class="rounded rounded-1 shadow-sm">
+                </div>
+                <h5 class="mt-4 ">
+                    JavaScript Programming Essentials Bootcamp (3 Days)
+                </h5>
+                <div class="free ">
+                    <div class="time  text-black-50 ">
+                    <span><i class="bi bi-camera-video"></i> 03 Classes</span>
+                    </div>
+                    <div class="progress my-2" role="progressbar" aria-label="Warning example" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar text-bg-warning" style="width: 66%">66%</div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class=" certificate-card border border-1 shadow-sm mb-sm-0 mb-3">
+            <div class=" certificate-card1  p-3 ">
+                <div class="card-image">
+                    <img src="https://media.letsupgrade.net/lms/program/FSWDNOV1122/image_1667209459978_image_1664361230147_image_1661753048512_image_1660908433371_WD thumbnail.jpeg" alt="" width="100%" class="rounded rounded-1 shadow-sm">
+                </div>
+                <h5 class="mt-4 ">
+                    FS Web Development Program November 22
+                </h5>
+                <div class="free ">
+                    <div class="time  text-black-50 ">
+                    <span><i class="bi bi-camera-video"></i> 200 Classes</span>
+                    </div>
+                    <div class="progress my-2" role="progressbar" aria-label="Warning example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar text-bg-warning" style="width: 80%">80%</div>
+                      </div>
+                </div>
             </div>
         </div>
     </div>
-</main>
-
-
+</div>
+</div>
 
 <!-- footer start  -->
 <div class="footer-section ">

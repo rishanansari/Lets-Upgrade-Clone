@@ -1,0 +1,10 @@
+.certificate-card{
+    width: 30% !important;
+}
+
+@media screen and (max-width: 768px){
+
+    .certificate-card{
+        width: 90% !important;
+    }
+}
