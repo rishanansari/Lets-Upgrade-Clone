@@ -1,0 +1,30 @@
+.exam-div{
+    background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' fill='none' stroke='rgb(15 23 42 / 0.04)'%3E%3Cpath d='M0 .5h31.5V32'/%3E%3C/svg%3E");
+background: linear-gradient(147.76deg,hsla(310, 92%, 90%, 0.31) 2%,rgb(249, 176, 239) 650%);
+}
+.left-div{
+    width: 30%;
+}
+
+.blink{
+
+    animation: animate 1s linear infinite;
+}
+.time{
+    font-size: 10px;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .left-div{
+        width: 90% !important;
+    }
+}
